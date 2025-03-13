@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flipkart</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+
+    <!--navbar start -->
+    <div class="row">
+      <div class="col-sm-12">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+
+              <img src="images/logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <form class="d-flex w-50" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search for Products, Brands and More"
+                  aria-label="Search">
+
+              </form>
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item mx-3">
+                  <a class="nav-link active" aria-current="page" href="login.html"> <i class="fa-regular fa-user"></i> Login</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link active" href="#"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link active" href="#"><i class="fa-solid fa-burger"></i> Become a Seller</a>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- navbar end -->
+
+    <!-- Category start -->
+    <div class="row d-flex justify-content-around mt-3">
+      <div class="col-sm-1 text-center ">
+
+        <img src="images/categories/asset 17.png" alt="">
+        <h6>Grocery</h6>
+      </div>
+      <div class="col-sm-1">
+        <img src="images/categories/asset 25.png" alt="">
+        <h6>2 wheelers</h6>
+      </div>
+      <div class="col-sm-1">
+        <img src="images/categories/asset 19.png" alt="">
+        <h6>Fashion</h6>
+      </div>
+      <div class="col-sm-1"><img src="images/categories/asset 20.png" alt="">
+        <h6>Electronics</h6>
+      </div>
+      <div class="col-sm-1">
+        <img src="images/categories/asset 21.jpeg" alt="">
+        <h6>Home & Furniture</h6>
+      </div>
+      <div class="col-sm-1"><img src="images/categories/asset 22.jpeg" alt="">
+        <h6>Appliances</h6>
+      </div>
+      <div class="col-sm-1"><img src="images/categories/asset 23.png" alt="">
+        <h6>Flights</h6>
+      </div>
+      <div class="col-sm-1"><img src="images/categories/asset 24.png" alt="">
+        <h6>Toys & Baby</h6>
+      </div>
+      <div class="col-sm-1">
+        <img src="images/categories/asset 18.png" alt="">
+        <h6>Mobiles</h6>
+      </div>
+    </div>
+
+    <!-- Category end -->
+    <!-- slider start -->
+    <div class="row mt-2">
+      <div class="col-sm-12"></div>
+
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/slider/s1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/slider/s2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/slider/img2.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/slider/image1.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/slider/img4.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/slider/img11.webp" class="d-block w-100" alt="...">
+          </div>
+
+          <div class="carousel-item">
+            <img src="images/slider/img2.webp" class="d-block w-100" alt="...">
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+    <!-- slider end -->
+    <!-- electronics start -->
+    <div class="row">
+      <div class="col-sm-10 mt-2">
+        <div class="row my-2">
+          <div class="col-sm-6">
+            <h2>Best of Electronics</h2>
+          </div>
+          <div class="col-sm-6 text-end">
+            <button class="btn btn-primary rounded-circle">&gt;</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col mt-1">
+            <div class="card p-2">
+              <img src="images/electronics/watch2.jpeg" height="145vh" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">
+                  Digital Watch
+                  <br />
+                  <b> From &#8377;6,99</b>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mt-1">
+            <div class="card p-2">
+              <img src="images/electronics/monitor.jpeg" height="145vh" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">
+                  Best Moniter
+                  <br />
+                  <b> From &#8377;49,999</b>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mt-1">
+            <div class="card p-2">
+              <img src="images/electronics/oneplus-buds.jpeg" height="145vh" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">
+                  Headphone
+                  <br />
+                  <b> From &#8377;1,999</b>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mt-1">
+            <div class="card p-2">
+              <img src="images/electronics/projector.jpeg" height="145vh" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">
+                  Projector
+                  <br />
+                  <b> From &#8377;10,999</b>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col mt-1">
+            <div class="card p-2">
+              <img src="images/electronics/watch.jpeg" height="145vh" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">
+                  Best Moniter
+                  <br />
+                  <b> From &#8377;29,999</b>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2 mt-4">
+        <img src="images/airindia.jpg " class="img-fluid" alt="">
+
+      </div>
+    </div>
+    <!-- electronics end -->
+    <!-- Beauty & toys start -->
+    <div class="row">
+
+      <div class="row my-2">
+        <div class="col-sm-6">
+          <h2>Beauty & Toys</h2>
+        </div>
+        <div class="col-sm-6 text-end">
+          <button class="btn btn-primary rounded-circle">&gt;</button>
+        </div>
+      </div>
+
+      <div class="col-sm-2">
+        <div class="card p-2">
+          <img src="images/beauty_toys/books.jpeg" height="160vh" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">
+              Books store
+              <br />
+              <b> Up to 70% Off</b>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-2">
+        <div class="card p-2">
+          <img src="images/beauty_toys/coffee_powder.jpeg" height="145vh" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">
+              Coffee Powder
+              <br />
+              <b> Up to 70% Off</b>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="card p-2">
+          <img src="images/beauty_toys/microphone.jpeg" height="145vh" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">
+              Microphones
+              <br />
+              <b> Up to 70% Off</b>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="card p-2">
+          <img src="images/beauty_toys/push-up-bar.jpeg" height="145vh" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">
+              Push Up Bar
+              <br />
+              <b> Up to 70% Off</b>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="card p-2">
+          <img src="images/beauty_toys/puzzle.jpeg" height="145vh" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">
+              Puzzel
+              <br />
+              <b> Up to 70% Off</b>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-2">
+        <div class="card p-2">
+          <img src="images/beauty_toys/toy.jpeg" height="145vh" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">
+              Toys store
+              <br />
+              <b> Up to 70% Off</b>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Beauty & toys end -->
+    <!-- Home style start -->
+    <div class="row">
+
+      <div class="col-sm-4">
+        <div class="row">
+
+
+          <div class="row my-2">
+            <div class="col-sm-6">
+              <h5>Make Your Home Stylish</h5>
+            </div>
+
+
+            <div class="col-sm-6 text-end">
+              <button class="btn btn-primary rounded-circle">&gt;</button>
+            </div>
+          </div>
+          <div class="row my-2">
+            <div class="col-sm-6">
+              <div class="card p-2">
+                <img src="images/Home/img23.webp" height="145vh" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    Furniture
+                    <br />
+                    <b > Up to 50% Off</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+
+              <div class="card p-2">
+                <img src="images/Home/img24.webp" height="145vh" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    Furnitures
+                    <br />
+                    <b >Up to 50% Off</b>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+
+          <div class="row my-2">
+            <div class="col-sm-6">
+              <div class="card p-2">
+                <img src="images/Home/img.21.webp" height="145vh" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    Bedsheets
+                    <br />
+                    <b > Up to 50% Off</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+
+              <div class="card p-2">
+                <img src="images/Home/img22.webp" height="145vh" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    Furnitures
+                    <br />
+                    <b > Up to 50% Off</b>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="row">
+
+
+          <div class="row my-2">
+            <div class="col-sm-6">
+              <h5>End of Season Bestsellers</h5>
+            </div>
+
+
+            <div class="col-sm-6 text-end">
+              <button class="btn btn-primary rounded-circle">&gt;</button>
+            </div>
+          </div>
+          <div class="row my-2">
+            <div class="col-sm-6">
+              <div class="card p-2">
+                <img src="images/Home/img31.webp" height="145vh" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    Furniture
+                    <br />
+                    <b> Up to 50% Off</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+
+              <div class="card p-2">
+                <img src="images/Home/img32.webp" height="145vh" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">
+                   Ladies Cloth
+                    <br />
+                    <b> Up to 50% Off</b>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+
+          <div class="row my-2">
+            <div class="col-sm-6">
+              <div class="card p-2">
+                <img src="images/Home/img33.webp" height="145vh" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    Frock
+                    <br />
+                    <b> Up to 50% Off</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+
+              <div class="card p-2">
+                <img src="images/Home/img34.webp" height="145vh" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    Perfume
+                    <br />
+                    <b> Up to 50% Off</b>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="row">
+
+
+          <div class="row my-2">
+            <div class="col-sm-6">
+              <h5>Home Decor & Furnishings</h5>
+            </div>
+
+
+            <div class="col-sm-6 text-end">
+              <button class="btn btn-primary rounded-circle">&gt;</button>
+            </div>
+          </div>
+          <div class="row my-2">
+            <div class="col-sm-6">
+              <div class="card p-2">
+                <img src="images/Home/img41.webp" height="145vh" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    Home
+                    <br />
+                    <b> Up to 50% Off</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+
+              <div class="card p-2">
+                <img src="images/Home/img42.webp" height="145vh" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    Home
+                    <br />
+                    <b> Up to 50% Off</b>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+
+          <div class="row my-2">
+            <div class="col-sm-6">
+              <div class="card p-2">
+                <img src="images/Home/img43.webp" height="145vh" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    Home
+                    <br />
+                    <b> Up to 50% Off</b>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+
+              <div class="card p-2">
+                <img src="images/Home/img44.webp" height="145vh" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-center">
+                    Home
+                    <br />
+                    <b> Up to 50% Off</b>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <!-- Home style end -->
+    <!-- Winter start -->
+    <div class="row">
+
+      <div class="col-sm-4">
+        <div class="row my-2">
+          <div class="col-sm-6">
+            <h2>Winter</h2>
+          </div>
+
+
+          <div class="col-sm-6 text-end">
+            <button class="btn btn-primary rounded-circle">&gt;</button>
+          </div>
+        </div>
+
+
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card p-2">
+              <img src="images/winters/jackets.jpeg" height="145vh" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">
+                  Jackets
+                  <br />
+                  <b class="text-success"> Up to 50% Off</b>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+
+            <div class="card p-2">
+              <img src="images/winters/img6.webp" height="145vh" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">
+                  Jackets
+                  <br />
+                  <b class="text-success"> Up to 50% Off</b>
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-sm-6">
+            <div class="card p-2">
+              <img src="images/winters/img5.webp" height="145vh" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">
+                  Jackets
+                  <br />
+                  <b class="text-success"> Up to 50% Off</b>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+
+            <div class="card p-2">
+              <img src="images/winters/img4.webp" height="145vh" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">
+                  Jackets
+                  <br />
+                  <b class="text-success"> Up to 50% Off</b>
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-sm-8 selling-phone">
+
+
+        <img src="images/winters/img100.jpg" height="560vh" class="card-img-top" alt="...">
+
+      </div>
+    </div>
+
+  </div>
+  </div>
+  </div>
+  <!-- winter end -->
+
+  <!-- Directory start -->
+
+  <!-- directory end -->
+  <!-- Top stories start -->
+  <div class="row mt-2 py-5 mybg">
+    <div class="col-sm-12">
+      <h5> Top Stories: Brand Directory</h5>
+      <p class="myfont">
+        MOST SEARCHED FOR ON FLIPKART: <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+      </p>
+
+      <p class="myfont">
+        MOBILES:
+        <a href="" class="text-decoration-none text-secondary">Motorola g65 5g | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+      </p>
+
+      <p class="myfont">
+        CAMERA:
+        <a href="" class="text-decoration-none text-secondary">GoPro Action Camera | </a>
+        <a href="" class="text-decoration-none text-secondary">GoPro Action Camera | </a>
+        <a href="" class="text-decoration-none text-secondary">GoPro Action Camera | </a>
+        <a href="" class="text-decoration-none text-secondary">GoPro Action Camera | </a>
+        <a href="" class="text-decoration-none text-secondary">GoPro Action Camera | </a>
+        <a href="" class="text-decoration-none text-secondary">GoPro Action Camera | </a>
+
+      </p>
+      <p class="myfont">
+        LAPTOP:
+        <a href="" class="text-decoration-none text-secondary">Asus ROG Ally | </a>
+        <a href="" class="text-decoration-none text-secondary">Asus ROG Ally | </a>
+        <a href="" class="text-decoration-none text-secondary">Asus ROG Ally | </a>
+        <a href="" class="text-decoration-none text-secondary">Asus ROG Ally| </a>
+        <a href="" class="text-decoration-none text-secondary">Asus ROG Ally| </a>
+        <a href="" class="text-decoration-none text-secondary">Asus ROG Ally | </a>
+        <a href="" class="text-decoration-none text-secondary">Asus ROG Ally | </a>
+        <a href="" class="text-decoration-none text-secondary">Asus ROG Ally | </a>
+        <a href="" class="text-decoration-none text-secondary">Asus ROG Ally| </a>
+        <a href="" class="text-decoration-none text-secondary">Asus ROG Ally | </a>
+        <a href="" class="text-decoration-none text-secondary">Asus ROG Ally | </a>
+        <a href="" class="text-decoration-none text-secondary">Asus ROG Ally| </a>
+        <a href="" class="text-decoration-none text-secondary">Asus ROG Ally | </a>
+        <a href="" class="text-decoration-none text-secondary">Asus ROG Ally| </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+      </p>
+
+      <p class="myfont">
+        LARGE APPLIANCES:
+        <a href="" class="text-decoration-none text-secondary">Telivision| </a>
+        <a href="" class="text-decoration-none text-secondary">Washing Mashine| </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+
+      </p>
+
+      <p class="myfont">
+        TVS:
+        <a href="" class="text-decoration-none text-secondary">Nokia TV | </a>
+        <a href="" class="text-decoration-none text-secondary"> | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+        <a href="" class="text-decoration-none text-secondary">iphone 16 | </a>
+
+      </p>
+
+      <p class="myfont">
+        CLOTHING:
+        <a href="" class="text-decoration-none text-secondary">sari | </a>
+        <a href="" class="text-decoration-none text-secondary">frock | </a>
+        <a href="" class="text-decoration-none text-secondary">sari | </a>
+        <a href="" class="text-decoration-none text-secondary">sari | </a>
+        <a href="" class="text-decoration-none text-secondary">sari | </a>
+        <a href="" class="text-decoration-none text-secondary">sari | </a>
+        <a href="" class="text-decoration-none text-secondary">sari | </a>
+        <a href="" class="text-decoration-none text-secondary">sari | </a>
+        <a href="" class="text-decoration-none text-secondary">sari | </a>
+        <a href="" class="text-decoration-none text-secondary">sari | </a>
+        <a href="" class="text-decoration-none text-secondary">sari | </a>
+        <a href="" class="text-decoration-none text-secondary">sari | </a>
+        <a href="" class="text-decoration-none text-secondary">sari | </a>
+        <a href="" class="text-decoration-none text-secondary">sari | </a>
+        <a href="" class="text-decoration-none text-secondary">Desiner Blouses | </a>
+        <a href="" class="text-decoration-none text-secondary">Desiner Blouses | </a>
+        <a href="" class="text-decoration-none text-secondary">Desiner Blouses | </a>
+
+        <a href="" class="text-decoration-none text-secondary">Desiner Blouses | </a>
+        <a href="" class="text-decoration-none text-secondary">Desiner Blouses | </a>
+        <a href="" class="text-decoration-none text-secondary">Desiner Blouses | </a>
+        <a href="" class="text-decoration-none text-secondary">Desiner Blouses | </a>
+        <a href="" class="text-decoration-none text-secondary">Desiner Blouses | </a>
+        <a href="" class="text-decoration-none text-secondary">Desiner Blouses | </a>
+        <a href="" class="text-decoration-none text-secondary">Desiner Blouses | </a>
+      </p>
+    </div>
+    <div class="col-sm-12">
+      <h5>Flipkart:The One-Stop Shopping Destination:</h5>
+      <p class="myfont text-secondary">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis repellat enim quasi iusto veritatis dolorum
+        quos quis neque adipisci id illum pariatur earum possimus, dolore illo totam sit ipsa minima. Excepturi nemo
+        porro nam! Accusantium suscipit iste ea, exercitationem atque repellat, fugit molestias reiciendis officia
+        tempore, labore dolor porroLorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, eos. Dolorum assumenda et est, provident quis
+        tempore magnam neque officiis? Nisi laudantium ipsum reiciendis facere eum voluptate deleniti rerum temporibus,
+        nostrum consequatur quas dolor nulla tenetur voluptatum, neque aliquid voluptates sed pariatur ex impedit.
+        Laudantium totam debitis illum, quas corporis atque asperiores, in at quae non eius animi sapiente eaque vitae
+        rem, adipisci dolorum! Hic ratione unde dicta voluptatum veritatis. Sunt praesentium sapiente ad a. Molestias
+        natus harum accusamus magnam facilis, odio cum velit, voluptates ipsam, vel molestiae quibusdam cumque? Alias
+        illum autem reiciendis sit ea voluptatum tempora iusto laboriosam.
+      </p>
+    </div>
+  </div>
+  <!-- Top stories end -->
+  <!-- Footer start -->
+  <div class="row bg-dark text-light p-5 myfont border-botom border-secondary">
+    <div class="col-sm-7 border-end border-secondary">
+      <div class="row">
+        <div class="col-sm-3">
+          <h6 class="text-secondary myfont">ABOUT</h6>
+          <a href="" class="text-decoration-none text-light">Contact Us</a><br>
+          <a href="" class="text-decoration-none text-light">About Us</a><br>
+          <a href="" class="text-decoration-none text-light">Careers</a><br>
+          <a href="" class="text-decoration-none text-light">Flipkart Storis</a><br>
+          <a href="" class="text-decoration-none text-light">Press</a><br>
+          <a href="" class="text-decoration-none text-light">Corporate Information</a><br>
+        </div>
+        <div class="col-sm-3">
+          <h6 class="text-secondary myfont">GROUP COMPONIES</h6>
+          <a href="" class="text-decoration-none text-light">Contact Us</a><br>
+          <a href="" class="text-decoration-none text-light">About Us</a><br>
+          <a href="" class="text-decoration-none text-light">Careers</a><br>
+          <a href="" class="text-decoration-none text-light">Flipkart Storis</a><br>
+          <a href="" class="text-decoration-none text-light">Press</a><br>
+        </div>
+        <div class="col-sm-3">
+          <h6 class="text-secondary myfont">HELP</h6>
+          <a href="" class="text-decoration-none text-light">Payment</a><br>
+          <a href="" class="text-decoration-none text-light">Shipping</a><br>
+          <a href="" class="text-decoration-none text-light">Cancelation & Return</a><br>
+          <a href="" class="text-decoration-none text-light">FAQ</a><br>
+        </div>
+        <div class="col-sm-3">
+          <h6 class="text-secondary myfont">CONSUMER POLICY</h6>
+          <a href="" class="text-decoration-none text-light">Cancelation & Return</a><br>
+          <a href="" class="text-decoration-none text-light">Term of Use Security</a><br>
+          <a href="" class="text-decoration-none text-light">Security</a><br>
+          <a href="" class="text-decoration-none text-light">Privacy</a><br>
+          <a href="" class="text-decoration-none text-light">Sitemap</a><br>
+          <a href="" class="text-decoration-none text-light">Grievance Redressal</a><br>
+          <a href="" class="text-decoration-none text-light">EPR Compliances</a><br>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-5">
+      <div class="row">
+        <div class="col-sm-6">
+          <h6 class="text-secondary myfont">MALE US</h6>
+          <p class="text-light">Flipkart Internet Private Limited <br>Flipkart Internet Private Limited <br>Flipkart
+            Internet Private Limited <br> </p>
+          <h6 class="text-secondary myfont">Social</h6>
+          <i class="fa-brands fa-facebook mx-2"></i>
+          <i class="fa-brands fa-twitter mx-2"></i>
+          <i class="fa-brands fa-youtube mx-2"></i>
+        </div>
+        <div class="col-sm-6">
+          <h6 class="text-secondary myfont">REGISTERED OFFICE</h6>
+          <p class="text-light">Flipkart Internet Private Limited <br>Building Alyssa ,Begonia & <br>clove Embassy Tech
+            Vollage <br>Flipkart Internet Private Limited <br> </p>
+
+
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="row bg-dark text-light myfont py-4 px-5">
+    <div class="col-sm-8">
+      <div class="row">
+        <div class="col">
+          <i class="fa-solid fa-burger text-warning"></i>Become a seller
+        </div>
+        <div class="col"><i class="fa-solid fa-burger text-warning"></i>Become a seller</div>
+
+        <div class="col"><i class="fa-solid fa-burger text-warning"></i>Become a seller</div>
+
+        <div class="col">
+          <i class="fa-solid fa-burger text-warning"></i>Become a seller
+        </div>
+        <div class="col">
+          &copy; Flipkart
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <img src="images/payment-method-c454fb.svg" alt="">
+    </div>
+  </div>
+  <!-- Footer End -->
+  </div>
+
+</body>
+
+</html>
